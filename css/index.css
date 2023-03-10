@@ -1,0 +1,241 @@
+body {
+    margin:0;
+    padding:0;
+    background: rgb(40, 201, 225);
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background: #ed2607;
+    transform: skewX(0deg);
+}
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .p1 {
+    color: #0c0910;
+    font-family: 'tilt prism', sans-serif;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewX(0deg);
+    margin-bottom: 0;
+
+}
+
+.name .content .p2 {
+    color: #0c0910;
+    font-family: 'tilt prism', sans-serif;
+    font-size: 35px;
+    transform: skewX(0deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 270px;
+    height: 320px;
+    border-radius: 100%;
+    transform: skewX(0deg);
+    overflow: hidden;
+
+}
+
+.name .img img{
+    width: 270px;
+    height: 320px;
+}
+
+.info {
+    width: 96%;
+    height: auto;
+    background: #8eb;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.info .tituloseccion {
+    color: white ;
+    font-family: 'Tilt Prism', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 5px rgb(251, 255, 25) solid;
+    }
+
+    .info .tituloinfo {
+        color: rgb(0, 102, 128);
+        font-family: 'Tilt Prism', sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .info .infoinfo {
+        color: rgb(0, 0, 0);
+        font-family:'Tilt Prism', sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+
+    }
+
+    .info span {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+        background:rgb(178, 248, 248) ;
+        color: rgb(3, 3, 3);
+        font-family: 'tilt prism', sans-serif;
+        border-radius: 5px;
+
+    }
+    .name  .content{
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: 25%;
+        font-size: 65px;
+        transform: skewY(5deg);
+        margin-bottom: 0;
+        color: rgb(255, 255, 255);
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .name .content .p1{
+        font-size: 65px;
+        transform: skewY(5deg);
+        margin-bottom: 0;
+        color: rgb(255, 255, 255);
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .name .content .p2{
+        font-size: 30px;
+        transform: skewY(deg);
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    
+    .name .img {
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        transform: skewY(5deg);
+        overflow: hidden;
+    }
+    
+    .name .img img{
+        width: 283px;
+        height: 640px;
+    }
+    
+    .info {
+        width: 90%;
+        height: auto;
+        background:  rgba(0, 0, 15, 0.993);
+        margin:5% auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    .info .tituloSeccion {
+        color: white;
+        font-family: 'Golos Text', sans-serif;
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: 2px white;
+    }
+    
+    .info .tituloInfo {
+        color: white;
+        font-family: 'Golos Text', sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .info .infoInfo {
+        color: beige;
+        font-family: 'Golos Text', sans-serif;
+        font-weight:normal;
+        font-size: large;
+        display: inline;
+    }
+
+    .info span  {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+        background: rgb(123, 0, 255);
+        color: rgb(5, 4, 4);
+        font-family: 'Golos Text', sans-serif;
+        border-radius: 5px;
+    }
+
+    h1{
+        font: 34px arial;
+        width: 100%;
+        height: 75%;
+}
+
+    .habilidades{
+        width: 90%;
+        height: auto;
+        background: rgba(163, 31, 31, 0.302);
+        margin: 5% auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .container{margin: 25px 0;}
+
+    .container p{
+        font: bold 18px arial, helvetica,
+        sans-serif;
+        letter-spacing: 2px;
+
+        margin-bottom: 10px;
+
+        color: #ac3cac;
+    }
+
+    .bar{
+        height: 15px;
+        width: 300px;
+
+        background-color: #c5c5c5;
+        border-radius: 25px;
+
+        margin-bottom: 20px;
+    }
+
+    .progress-bar{
+        height: 100%;
+        background-color: #ac3cac;
+
+        border-radius: 25px 0 0 25px;
+
+        position: relative;
+    }
+
